@@ -1,5 +1,5 @@
 import { IsEnum, IsNumberString, IsString } from 'class-validator';
-import { assetType } from '../entities/loan.entities'
+import { assetType } from '../entities/loan.entity'
 export class CreateLoanDTO {
   @IsString()
   borrower: string;
